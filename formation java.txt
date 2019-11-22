@@ -1,0 +1,90 @@
+1/Les varaibles
+
+1.1/ Les primitives
+
+1.1.1/ Les entiers 
+
+long : 8 octets
+int : 4 octets
+chart : 1 octet
+short : 2 octest
+le plus douvent utilisé INT
+
+chart < short < int < long
+Les primitives ne peuvent pas etre nulles !! 
+
+Les décimaux 
+
+float (40) < double (80) 
+le plus douvent utilisé LONG
+
+Les booléens 
+
+
+1.2/Les objets
+
+String
+string str = null;
+if (str == null)
+
+2/Les opérateurs
+
+comparer 2 valeurs 
+
+a == b ok pour primitives
+a equal(b) pour les objets
+a <= b pour les primitives
+une primitive ne peut pas être nulle
+
+Les méthodes
+
+une méthode ne doit pas dépasser plus de 15 lignes (bonnes pratiques)
+
+
+
+Héritage
+
+Mettre les variables en protected dans la classe mère
+Mettre les variables en private dans les classes filles
+
+Abstract ==> imposiible d'instancier la classe
+
+
+glossaire :
+https://perso.telecom-paristech.fr/hudry/coursJava/glossaire.html#ins
+
+Framework spring
+spring boot
+
+static
+on travaille par rapport à la classe 
+
+void
+pas de return
+
+public
+visible de tous
+
+private
+pas visible
+variables d'instance tjs en private
+
+final pour une variable d'instance ==> constance les constantes sont en majuscules
+
+
+Toutes les types d'erreur
+
+Erreur d'execution ==> pas issu du dvlpeur mais du traitement
+Erreur de syntaxe
+Erreur de semantique 
+Gestion des erreurs => try catch
+
+2 types d'execption
+
+check et uncheck 
+
+
+
+
+
+

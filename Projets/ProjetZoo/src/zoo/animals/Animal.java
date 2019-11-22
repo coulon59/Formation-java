@@ -1,5 +1,7 @@
 package zoo.animals;
 
+import zoo.animals.exceptions.MonException;
+
 public abstract class Animal implements IAnimal {
 	
 	
@@ -52,14 +54,13 @@ public abstract class Animal implements IAnimal {
 		this.poids = poids;
 	}
 
-	public void respirer() {
-	System.out.println(this.nom + " respire");
+	public void respirer() throws MonException{
+		throw new MonException("Plus d'air dans le zoo");
 	}
 		
 	public void manger() {
 		System.out.println(this.nom + " mange");
 	}
-
 
 	@Override
 	public String toString() {

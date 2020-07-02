@@ -35,7 +35,7 @@
 		<jdk.target>1.7</jdk.target>
 
 		<version.junit>4.12</version.junit>
-		<version.mysql>5.1.41</version.mysql>
+		<version.mysql>8.0.16</version.mysql>
 
 		<!-- https://maven.apache.org/plugins/index.html -->
 		<maven-compiler-plugin-version>3.6.1</maven-compiler-plugin-version>

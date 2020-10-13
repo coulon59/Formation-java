@@ -34,7 +34,7 @@
 		<jdk.source>1.7</jdk.source>
 		<jdk.target>1.7</jdk.target>
 
-		<version.junit>4.12</version.junit>
+		<version.junit>4.13.1</version.junit>
 		<version.hsqldb>2.3.4</version.hsqldb>
 
 		<!-- https://maven.apache.org/plugins/index.html -->
